@@ -9,3 +9,13 @@
     left: 50%;
     transform: translate(-50%, 0);
   }
+
+  .alert {
+    opacity: 0;
+    transition: opacity 0.15s linear;
+  }
+
+  .alert.show {
+     opacity: 1;
+  }
+
